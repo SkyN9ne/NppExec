@@ -1,27 +1,27 @@
-# NppExec (plugin for Notepad++)
+# NppExec (Notepad++ Console)
 
-Here is some brief info about NppExec for new users:
+### Summary about NppExec
+
 * NppExec adds a Console window at the bottom of Notepad++'s window;
 This Console window allows to run different console programs directly in it;
 Also there is Plugins -> NppExec -> Execute... window that allows to execute NppExec's scripts (set of commands).
-* NppExec's commands and variables are listed in the "NppExec.txt" file.
-* To get more details, type "help" (without the quotes) directly in NppExec's Console. To get a detailed help about any NppExec's command, type "help [command]" - e.g. "help npp_open" or "help set".
-And don't forget about Plugins -> NppExec -> Help/Manual.
+* NppExec's commands and variables are listed in the `NppExec.txt` file.
+* To get more details, type `help` directly in NppExec's Console.
+* To get detailed help about any of NppExec's commands, type `help [command]` - for example `help npp_open` or `help set`
+* There is also Plugins -> NppExec -> Help/Manual.
 
-Installation:
-* Just unpack the NppExec zip-archive (the last \*dll\*.zip under either https://github.com/d0vgan/nppexec/releases or https://sourceforge.net/projects/npp-plugins/files/NppExec/) to the folder "Notepad++\plugins".
-It will extract the file "NppExec.dll" as well as the "doc\NppExec" and "NppExec" subfolders (the latter one contains header files used by NppExec at runtime).
-* The only difference between the \*dll\*.zip and \*dll\*_PA.zip is the plugin folder structure. The \*dll\*.zip corresponds to the plugin folder structure prior to Notepad++ 7.6.x, whereas the \*dll\*_PA.zip follows the new plugin folder structure introduced in Notepad++ 7.6.x together with the Plugins Admin.
+## Installation:
 
-Note:
-If you see just blank pages inside the NppExec Manual or see messages similar to "This web content was blocked" or "This web page could not be shown", please follow the instructions below:
-* Unblocking CHM files for Windows 7 and above : https://support.microsoft.com/kb/2021383
-* Unblocking CHM files : https://stackoverflow.com/questions/4400744/chm-viewer-unable-to-show-contents
-* And also: https://stackoverflow.com/questions/11438634/opening-a-chm-file-produces-navigation-to-the-webpage-was-canceled
+* Just unzip the `NppExec.zip` archive (the last `*_.dll.zip` from either [https://github.com/d0vgan/nppexec/releases](https://github.com/d0vgan/nppexec/releases) or [https://sourceforge.net/projects/npp-plugins/files/NppExec](https://sourceforge.net/projects/npp-plugins/files/NppExec) to the `Notepad++\plugins\` directory (typically under either `%ProgramFiles%` or `%APPDATA%`) It will extract the file `NppExec.dll` as well as the `doc\NppExec\` and `NppExec\` subfolders (the latter one contains header files used by NppExec at runtime).
+* The only difference between the `*.dll.zip` and `*.dll_PA.zip` is the plugin folder structure. The `*.dll.zip` corresponds to the plugin folder structure prior to Notepad++ v 7.6.*, whereas the `*.dll_PA.zip` follows the new plugin folder structure introduced in Notepad++ v7.6+ together with the Plugins Admin.
 
-Alternatively, a web version of the NppExec Manual can be used:  
-https://d0vgan.github.io/nppexec/
+## Note:
+If you see just blank pages inside the NppExec Manual or see messages similar to `This web content was blocked` or `This web page could not be shown`, and want to unblock them read:
+* Unblocking `.CHM` files: <https://stackoverflow.com/questions/4400744/chm-viewer-unable-to-show-contents>
+* And also: <https://stackoverflow.com/questions/11438634/opening-a-chm-file-produces-navigation-to-the-webpage-was-canceled>
+* Unblocking `.CHM` files for Windows 7 and above: <https://support.microsoft.com/kb/2021383>
 
-To support NppExec development:
+### Now there's a web version of the NppExec Manual: 
+[https://d0vgan.github.io/nppexec](https://d0vgan.github.io/nppexec)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=W852AH392AZDJ)
+* You could still save it locally by downloading it with `wget` or `curl` or even PowerShell
